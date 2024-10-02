@@ -1,0 +1,104 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 200px;
+}
+.navigationLink{
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+.navigationLink a:hover{
+    color: #8176AF;
+}
+.button{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 155px;
+    height: 50px;
+    border-radius: 40px;
+    border: solid 2px #fff;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+button:hover{
+    background: linear-gradient(to right, #8176AF, #C0B7E8);
+    border: none;
+    color: #343045;
+}
+.about{
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.AboutImg img{
+    width: 490px;
+    height: 425px;
+    border-radius: 100px 100px 100px 240px;
+}
+.ImgBg{
+    width: 525px;
+    height: 455px;
+    background-color: rgba(0, 0, 0, 0.13);
+    padding-top: 20px;
+    padding-left: 18px;
+    border-radius: 100px 100px 100px 240px;
+}
+.AboutText{
+    width: 530px;
+}
+.AboutText h1{
+    font-size: 47px;
+    font-weight: bold;
+    color: #fff;
+}
+.gradient-text {
+    background: linear-gradient(to right, #8176AF, #C0B7E8); /* Задаємо градієнт */
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-clip: text; 
+}
+.AboutText p{
+    margin-top: 15px;
+    width: 450px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+.Build{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.Build button{
+    margin-right: 40px;
+}
+.Build img{
+    cursor: pointer;
+}
+.contactContainer{
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 50px;
+    border-radius: 90px;
+    background: radial-gradient(circle, rgba(58,52,86,1) 0%, rgba(33,30,46,1) 100%);
+}
+.contact{
+    display: flex;
+    height: 60px;
+}
